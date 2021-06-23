@@ -1,0 +1,143 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+body{
+  text-align: center;
+  background: linear-gradient(to right,#EE82EE,#BA55D3,#9932CC);
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+h1{
+  margin: 60px 0;
+  font-size: 22px;
+}
+#me img{
+  width: 20%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+#me{
+  margin-top: 140px;
+}
+
+figcaption{
+  font-size: 22px;
+  margin: 15px 0;
+}
+a{
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
+}
+a:hover, svg:hover{
+  color: #fdde6c;
+  transform: scale(1.08);
+}
+.description{
+  font-size: 17px;
+  margin: 5px 0;
+}
+#navbar{
+  background: #555555;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  z-index: 1000;
+}
+#navbar a{
+  text-decoration: none;
+}
+main{
+    margin: 15px 0 150px 0;
+}
+p{
+    margin: 15px auto;
+    font-size: 20px;
+    width: 700px;
+    text-align: justify;
+    width: 60vw;
+}
+#contact{
+  margin-top: 70px;
+}
+#contato-email{
+  display: flex;
+  flex-direction: column;
+  margin: 7.5px auto;
+  width: 260px;
+}
+#email, #nome{
+  margin: 7.5px 0;
+  border-radius: 7px;
+  border-style: none;
+  padding: 2.5px 0;
+}
+#mensagem{
+  margin: 15px 0;
+  border-radius: 7px;
+  border-style: none;
+  padding: 15px;
+}
+#botao-enviar{
+  background: #555555;
+  color: white;
+  width: 80px;
+  padding: 4px;
+  border-radius: 5px;
+  border-style: none;
+  margin: auto;
+}
+#botao-enviar:hover{
+  background: #d44f7c;
+  transform: scale(1.08);
+  border-radius: 7px;
+}
+#social-medias a{
+  text-decoration: none;
+}
+#projects{
+  margin-top: 70px;
+}
+
+@media(max-width:768px){
+  #description{
+    width: 60vw;
+  }
+  #me img{
+    width: 30vw;
+  }
+
+}
+.carousel-inner > .item > a > img{
+  width: 100%;
+  margin: auto;
+  }
+#carouselExampleControls{
+  margin: 0 auto;
+  width: 50vw;
+}
+.carousel .carousel-item {
+  height: 360px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 360px;
+    width: 640px;
+}
